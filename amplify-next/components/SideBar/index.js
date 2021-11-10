@@ -123,7 +123,7 @@ return (
             {slice.sort(({  createdAt: b }, { createdAt: a }) => a > b ? 1 : -1)
               .map((post, index) => (
                 <div key={index}>
-                  <Link href="/post/[id]" as={`/post/${post.id}`}>
+                  <Link href={`/posts/${post.id}`}>
                       <div className="flex items-center">
                         <div className="flex-shrink-0">
                         </div>
