@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --amplify-primary-color: #5185f4;
+  --amplify-primary-tint: #5185f4;
+  --amplify-primary-shade: #5185f4;
+}
+.alert {
+  color: #ff4242;
+}
+h1 {
+  text-align: center;
+}
+#fixedButton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
